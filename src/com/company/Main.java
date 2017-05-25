@@ -18,9 +18,9 @@ public class Main {
 
     */
 
-    /*Runtime: O(n) - linear time. (Can also argue that since it
-      is finding hamming distance of integers that it is bound by
-      32 bits.. which would mean O(1) runtime)
+    /*Runtime: O(1) - constant time since it
+      is finding hamming distance of integers which it is bound by
+      32 bits.. which would mean O(1) runtime.
      */
     public int hammingDistance(int x, int y) {
         int xor = x^y;
